@@ -1,0 +1,99 @@
+/* background color du body */
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+
+
+/* espacement logo */
+.barre-superieure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* logo diplome */
+.logo-diplome{
+background-color: white;
+width: 50px;
+height: 50px;
+border-radius: 10px;
+padding: 5px;
+box-sizing: border-box;
+}
+
+
+.logo-diplome-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* logo avatar inconnu */
+.logo-avatar{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.logo-avatar-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Test de Bienvenue */
+h1{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+
+p{
+    color: white;
+}
+
+
+.barre-inferieur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.page-eduboost{
+    background-image: url(Welcome.png);
+}
+
+
+.page-accueil{
+    background-image: url(acceuil.png);
+}
+
+
+button{
+    align-items: center;
+
+}
+
+
+.bouton-lien{
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0 auto;
+    position: relative;
+    top: 320PX;
+}
